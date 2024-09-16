@@ -1,0 +1,330 @@
+/* google fonts linking here */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* ************************
+****    Global CSS     ****
+***************************/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+ul {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+}
+
+/* *******************
+HEADER SECTION START
+********************** */
+.navbar {
+    background-color: #F0FFF0 !important;
+}
+
+header .navbar-brand img {
+    width: 160px;
+}
+
+.navbar .nav-item {
+    margin-right: 25px;
+}
+
+.navbar .nav-item .nav-link {
+    color: #000000;
+}
+
+.navbar .nav-item .nav-link:hover {
+    color: #17945c;
+    transition: 0.8s;
+}
+
+.navbar .btn-signin {
+    padding: 8px 24px;
+    background: #21B573;
+    color: white;
+    border: 1px solid #21B573;
+    border-radius: 33px;
+    font-family: Roboto;
+    text-transform: capitalize;
+}
+
+.navbar .btn-signin:hover {
+    background: #17945c;
+    transition: 0.8s;
+}
+
+/* *******************
+HEADER SECTION END
+********************** */
+
+/* ******************
+BANNER SECTION START
+********************* */
+.banner-section {
+    width: 100%;
+    background-color: #F0FFF0;
+    padding: 70px;
+}
+
+.banner-section img {
+    width: 554px;
+    margin-left: 75px;
+}
+
+.banner-section h5 {
+    color: #FD511A;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.banner-section h1 {
+    width: 70%;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 70px;
+    color: #000000;
+    margin-top: 10px;
+}
+
+.banner-section h1 span {
+    color: #21B573;
+}
+
+.banner-section p {
+    width: 64%;
+    line-height: 36px;
+    color: #6C6B6B;
+    margin-top: 20px;
+}
+
+.banner-section .btn-banner {
+    padding: 11px 32px;
+    background: #21B573;
+    color: white;
+    border: 1px solid #000000;
+    border-radius: 33px;
+    font-family: Roboto;
+    margin-top: 20px;
+}
+
+.banner-section .btn-banner:hover {
+    background: #17945c;
+    transition: 0.8s;
+}
+
+/* ******************
+BANNER SECTION END
+********************* */
+
+/* *********************
+FEATURE SECTION START
+************************ */
+.feature {
+    padding: 40px 0px;
+}
+
+.feature-content {
+    background: #F8FFFB;
+    padding: 70px 0px;
+}
+
+.feature-content img {
+    width: 20%;
+}
+
+.feature-content h2 {
+    color: #413960;
+    font-size: 24px;
+    line-height: 36px;
+    margin-top: 15px;
+}
+
+.feature-content p {
+    color: #585859;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.feature-content:hover {
+    background: #FFFFFF;
+    box-shadow: 0px 20px 40px 0px #0000001A;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.8s;
+}
+
+/* *********************
+FEATURE SECTION END
+************************ */
+
+/* *********************
+COURSE SECTION START
+************************ */
+.course-section {
+    padding: 30px 0px;
+}
+
+.course-section h1 {
+    color: #000000;
+    font-weight: 700;
+}
+
+.course-section .course {
+    padding: 22px;
+    box-shadow: 0px 10px 40px 0px #0000001A;
+    border-radius: 18px;
+}
+
+.head {
+    color: #413960;
+    text-align: center;
+    font-size: 36px;
+    line-height: 54px;
+}
+
+.course-content {
+    margin: 0px 20px;
+}
+
+.course-section .course h3 {
+    color: #413960;
+    font-size: 24px;
+    line-height: 36px;
+    margin-top: 30px;
+}
+
+.course-section .course h6 {
+    color: #585859;
+}
+
+.course .btn-course {
+    background: #21B573;
+    border-radius: 50px;
+    color: white;
+    padding: 0;
+    padding: 6px 12px;
+    margin: 20px 0px;
+    font-size: 15px;
+    font-family: "Roboto", sans-serif;
+}
+
+.course .btn-course:hover {
+    background: #0f7949;
+    color: white;
+    transition: 0.8s;
+}
+
+.course-section .course ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.course-section .course ul li {
+    color: #585859;
+    font-size: 16px;
+    line-height: 24px;
+
+}
+
+.course-section .course ul li i {
+    color: #585859;
+    margin-right: 10px;
+}
+
+/* *********************
+COURSE SECTION END
+************************ */
+
+/* *********************
+TESTIMONIAL SECTION START
+************************ */
+.testimonial {
+    padding: 60px 0px;
+}
+
+.testimonial h1 {
+    color: #000000;
+    font-weight: 700;
+}
+
+.testimonial .t-img {
+    text-align: right;
+}
+
+.testimonial p {
+    width: 75%;
+    line-height: 30px;
+    color: #000000;
+    margin-top: 20px;
+}
+
+/* *********************
+TESTIMONIAL SECTION END
+************************ */
+
+/* *********************
+FOOTER SECTION START
+************************ */
+footer {
+    background: #282531;
+    color: white;
+    padding: 50px 0px 30px;
+}
+
+.footer-p p {
+    width: 75%;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+footer ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+footer ul li {
+    font-weight: 200;
+}
+
+footer ul li:first-child {
+    font-weight: 600;
+}
+
+footer ul li:hover {
+    cursor: pointer;
+    color: #21B573;
+    transition: 0.8s;
+}
+
+.copyright {
+    text-align: center;
+    color: #CDCDCD;
+    margin-bottom: -10px;
+    margin-top: 35px;
+}
+
+.copyright:hover {
+    cursor: pointer;
+    color: #21B573;
+    transition: 0.8s;
+}
+
+/* *********************
+FOOTER SECTION END
+************************ */

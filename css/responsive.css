@@ -1,0 +1,333 @@
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+
+  /* CSS */
+
+}
+
+/* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+
+  /* CSS */
+
+}
+
+/* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+  /* CSS */
+  /* *******************
+HEADER SECTION START
+********************** */
+  .navbar .nav-item .nav-link {
+    text-align: center;
+  }
+
+  .navbar .btn-signin {
+    margin-left: 41%;
+    margin-top: 10px;
+  }
+
+  /* *******************
+HEADER SECTION END
+********************** */
+  /* ******************
+BANNER SECTION START
+********************* */
+  .banner-section {
+    height: 75vh !important;
+  }
+
+  .content {
+    text-align: center;
+    justify-content: center;
+  }
+
+  .banner-section h1 {
+    width: 100% !important;
+  }
+
+  .banner-section p {
+    width: 100% !important;
+    margin-top: 25px !important;
+  }
+
+  .banner-section img {
+    margin-left: 35px !important;
+    margin-top: 40px;
+  }
+
+  /* ******************
+BANNER SECTION END
+********************* */
+
+  /* *********************
+FEATURE SECTION START
+************************ */
+
+  .feature {
+    padding: 40px !important;
+  }
+
+  .col-md-3 {
+    flex: 0 0 auto;
+    width: 50%;
+  }
+
+  .feature-content h2 {
+    line-height: 35px !important;
+  }
+
+  .f-gap {
+    margin-bottom: 30px;
+  }
+
+  /* *********************
+FEATURE SECTION END
+************************ */
+
+  /* *********************
+COURSE SECTION START
+************************ */
+  .course-section .course {
+    margin-bottom: 50px !important;
+  }
+
+  .col-md-4 {
+    flex: 0 0 auto;
+    width: 100%;
+  }
+
+  /* *********************
+COURSE SECTION END
+************************ */
+
+  /* *********************
+TESTIMONIAL SECTION START
+************************ */
+  .testimonial {
+    padding-top: 40px !important;
+  }
+
+  .testimonial .t-img {
+    text-align: center !important;
+  }
+
+  .testimonial p {
+    text-align: center;
+    width: 100% !important;
+    margin-top: 40px !important;
+  }
+
+  /* *********************
+TESTIMONIAL SECTION END
+************************ */
+
+  /* *********************
+FOOTER SECTION START
+************************ */
+  .footer-p p {
+    margin-left: 13%;
+    text-align: center;
+  }
+
+  footer ul {
+    text-align: center;
+  }
+
+  footer ul li:first-child {
+    margin-top: 25px;
+    margin-bottom: 10px;
+  }
+
+  .copyright {
+    margin-bottom: 40px !important;
+    margin-top: 10px !important;
+  }
+
+  /* *********************
+FOOTER SECTION END
+************************ */
+}
+
+/* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+
+  /* CSS */
+
+}
+
+/* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+  /* CSS */
+
+}
+
+/* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+  /* CSS */
+
+  /* *******************
+HEADER SECTION START
+********************** */
+  .navbar .nav-item .nav-link {
+    text-align: center;
+  }
+
+  .navbar .btn-signin {
+    margin-left: 35%;
+    margin-top: 10px;
+  }
+
+  /* *******************
+HEADER SECTION END
+********************** */
+  /* ******************
+BANNER SECTION START
+********************* */
+  .banner-section {
+    height: 72vh !important;
+  }
+
+  .content {
+    text-align: center;
+    justify-content: center;
+  }
+
+  .banner-section h1 {
+    width: 100% !important;
+    font-size: 30px !important;
+    line-height: 40px !important;
+    margin-top: 0PX !important;
+  }
+
+  .banner-section p {
+    width: 100% !important;
+    line-height: 34px !important;
+  }
+
+  .banner-section .btn-banner {
+    padding: 8px 15px !important;
+    margin-top: 15px !important;
+    font-size: 14px;
+  }
+
+  .banner-section img {
+    margin-left: 0px !important;
+    margin-top: 40px;
+  }
+
+  /* ******************
+BANNER SECTION END
+********************* */
+
+  /* *********************
+FEATURE SECTION START
+************************ */
+
+  .feature {
+    padding: 20px !important;
+  }
+
+  .feature-content img {
+    width: 16% !important;
+  }
+
+  .feature-content h2 {
+    line-height: 35px !important;
+  }
+
+  .f-gap {
+    margin-bottom: 30px;
+  }
+
+  /* *********************
+FEATURE SECTION END
+************************ */
+
+  /* *********************
+COURSE SECTION START
+************************ */
+  .course-section .course {
+    margin: 20px !important;
+  }
+
+  /* *********************
+COURSE SECTION END
+************************ */
+
+  /* *********************
+TESTIMONIAL SECTION START
+************************ */
+  .testimonial {
+    padding: 40px 0px;
+  }
+
+  .testimonial .t-img {
+    text-align: center !important;
+  }
+
+  .testimonial p {
+    width: 82% !important;
+    margin-left: 45px !important;
+    margin-top: 25px !important;
+    text-align: center;
+  }
+
+  /* *********************
+TESTIMONIAL SECTION END
+************************ */
+
+  /* *********************
+FOOTER SECTION START
+************************ */
+  .footer-p p {
+    margin-left: 50px;
+    text-align: center;
+  }
+
+  footer ul {
+    text-align: center;
+    margin-left: 50px;
+  }
+
+  footer ul li:first-child {
+    margin-top: 25px;
+    margin-bottom: 10px;
+  }
+
+  .copyright {
+    margin-bottom: 40px !important;
+    margin-top: 10px !important;
+  }
+
+  /* *********************
+FOOTER SECTION END
+************************ */
+}
